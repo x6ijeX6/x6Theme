@@ -1,0 +1,15 @@
+/**
+ * @name Rounded Discord
+ * @author MarkChan0225
+ * @description A theme that using Rounded, Radial Status, Modal Settings.
+ * @version 0.0.0
+ * @invite 85MJHGN72s
+ * @authorId 1274648872932868131
+ * @source https://github.com/x6ijeX6/x6Theme
+*/
+
+@import url(https://MarkChan0225.github.io/RoundedDiscord/src/roundeddiscord.css);
+
+:root {
+    --roundeddiscord-border-radius: 16px;
+}
