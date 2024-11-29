@@ -1,37 +1,3 @@
-/**
- * @name x6THEME
- * @author x6ije
- * @description A theme that using: radial status, modal settings, rounded discord.
- */
-
- 
-
- :root {
-    --radius: 16px;
-      --settingswidth: 960;
-      --settingsheight: 80;
-      --settingsbackground: transparent;
-      --settingswidth_v: min(calc(1px * var(--settingswidth_s, var(--settingswidth))), 99vw);
-      --settingsheight_v: min(calc(1vh * var(--settingsheight_s, var(--settingsheight))), 99vh);
-      --settingsbackground_v: var(--settingsbackground_s, var(--settingsbackground));
-    --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
-    --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
-    --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
-    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
-    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
-    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
-    --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
-    --rs-online-color: #00ff00; /* Colour for online status */
-    --rs-idle-color: #ffff00; /* Colour for idle status */
-    --rs-offline-color: #333333; /* Colour for offline status */
-    --rs-streaming-color: #5d00ff; /* Colour for streaming status */
-    --rs-invisible-color: #666666; /* Colour for invisible status - Note: this will only show for your own invisibility */
-    --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
-    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
-    --bgcolor: #11111177; /* Kolor tła - możesz zmienić na dowolny */
-    --color: #111111;
-  }
-  
   /*
    *
    *  BETTERDISCORD PLUGIN -> SpotifyControls
