@@ -8,8 +8,8 @@
  * @source https://github.com/x6ijeX6/x6Theme
 */
 
-@import url(https://raw.githubusercontent.com/x6ijeX6/x6Theme/refs/heads/main/css/Rounded.css?token=GHSAT0AAAAAAC2Y7JCSGAQVFB5NX6QXMOSCZ2J72EQ);
+@import url(https://raw.githubusercontent.com/x6ijeX6/x6Theme/refs/heads/main/css/Rounded.css);
 
 :root {
-    --roundeddiscord-border-radius: 16px;
+    --radius: 16px;
 }
